@@ -23,7 +23,7 @@ dependencies:
 - name: nginx
   version: 1.13.3
   uri: https://github.com/amaline/s3-proxy-nginx/releases/download/v0.6/nginx-s3.tgz
-  md5: 53917f43684d6ec825ca469ab586c0d2
+  md5: 0b2dfaf93110b53f191671f9105e5fed
   cf_stacks:
   - cflinuxfs2
 pre_package: scripts/build.sh
