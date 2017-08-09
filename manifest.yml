@@ -22,7 +22,7 @@ exclude_files:
 dependencies:
 - name: nginx
   version: 1.13.3
-  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.13.3-linux-x64-53917f43.tgz
+  uri: https://github.com/amaline/s3-proxy-nginx/releases/download/v0.6/nginx-s3.tgz
   md5: 53917f43684d6ec825ca469ab586c0d2
   cf_stacks:
   - cflinuxfs2
